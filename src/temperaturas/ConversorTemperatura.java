@@ -28,6 +28,12 @@ public class ConversorTemperatura {
 		JOptionPane.showMessageDialog(null, input + "º grados " + control(opcion)[0] + " son " + out + "º grados " + control(opcion)[1]);
 	}
 	
+
+	/**
+	 * Este metodo sirve para controlar los nombres de las temperaturas que se estan utilizando
+	 * @param opcion
+	 * @return un arreglo con las temperaturas utilizadas
+	 */
 	private static String[] control(String opcion) {
 		char[] opcionChar = opcion.toCharArray();
 		String[] out = {"", ""};

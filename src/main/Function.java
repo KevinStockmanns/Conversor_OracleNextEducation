@@ -16,7 +16,10 @@ public class Function {
 			return opcion;
 			}
 
-
+		/**
+		 * Metodo que verifica si el numero ingresado es mayor que 0
+		 * @param input
+		 */
 		public static void verificarInput(double input) {
 			if(input <= 0)
 				throw new IllegalArgumentException();
